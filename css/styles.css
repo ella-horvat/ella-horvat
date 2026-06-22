@@ -11186,6 +11186,24 @@ h6 {
     font-family: "Montserrat", "Futura", "Avenir", Arial, sans-serif !important;
     font-weight: 600;
 }
+css
+/* Homepage button outline */
+.masthead .btn-primary {
+    background-color: transparent !important;
+    border: 2px solid #ffffff !important;
+    color: #ffffff !important;
+    border-radius: 50px;
+    padding: 1rem 2rem;
+}
+
+/* Homepage button hover */
+.masthead .btn-primary:hover,
+.masthead .btn-primary:focus,
+.masthead .btn-primary:active {
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+    color: rgb(187, 38, 102) !important;
+}
 
 
 
