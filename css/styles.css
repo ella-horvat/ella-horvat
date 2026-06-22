@@ -11224,6 +11224,27 @@ css
     color: rgb(187, 38, 102) !important;
 }
 
+/* Homepage View My Projects button */
+.masthead a.btn.btn-primary.btn-xl {
+    display: inline-block;
+    padding: 1rem 2rem !important;
+    background-color: transparent !important;
+    color: #ffffff !important;
+    border: 2px solid #ffffff !important;
+    border-radius: 50px !important;
+    box-shadow: none !important;
+}
+
+/* Homepage button when hovered */
+.masthead a.btn.btn-primary.btn-xl:hover,
+.masthead a.btn.btn-primary.btn-xl:focus,
+.masthead a.btn.btn-primary.btn-xl:active {
+    background-color: #ffffff !important;
+    color: rgb(187, 38, 102) !important;
+    border-color: #ffffff !important;
+}
+
+
 
 
 
