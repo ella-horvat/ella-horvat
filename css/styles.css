@@ -11111,3 +11111,37 @@ hr.divider-light {
     background-color: #7c8483;
 }
 ```
+```css
+/* =========================================
+   BUTTON AND THUMBNAIL HOVER COLORS
+========================================= */
+
+:root {
+    --hover-color: #3f5960;
+    --hover-color-rgb: 63, 89, 96;
+}
+
+/* Teal buttons when hovered */
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    color: #ffffff;
+    background-color: var(--hover-color);
+    border-color: var(--hover-color);
+}
+
+/* White buttons when hovered */
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #ffffff;
+    background-color: var(--hover-color);
+    border-color: var(--hover-color);
+}
+
+/* Map thumbnail hover overlay */
+.portfolio-box .portfolio-box-caption {
+    background-color: rgba(var(--hover-color-rgb), 0.92);
+}
+```
+
