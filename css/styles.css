@@ -11189,6 +11189,23 @@ hr.divider-light {
     display: none !important;
 }
 
+/* Transition between project thumbnails and detailed projects */
+.project-transition {
+    background-color: rgb(165, 111, 134);
+    color: #ffffff;
+    padding: 3.5rem 1rem;
+}
+
+.project-transition h2 {
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+}
+
+.project-transition p {
+    margin-bottom: 0;
+    color: #ffffff;
+}
+
 
 
 
