@@ -10836,7 +10836,7 @@ body {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 9rem 0;
 }
 
 .text-white-75 {
@@ -10856,7 +10856,7 @@ hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
   margin: 1.5rem auto;
-  background-color: #f4623a;
+  background-color: #982649;
   opacity: 1;
 }
 
@@ -11218,8 +11218,8 @@ h6 {
 /* Make all section divider lines pink */
 hr.divider,
 hr.divider-light {
-    background-color: rgb(187, 38, 102) !important;
-    border-color: rgb(187, 38, 102) !important;
+    background-color: #982649 !important;
+    border-color: rgb#982649(187, 38, 102) !important;
     opacity: 1 !important;
 }
 
