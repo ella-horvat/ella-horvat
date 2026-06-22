@@ -10851,17 +10851,6 @@ body {
   border: none;
   border-radius: 10rem;
 }
-
-hr.divider {
-  height: 0.2rem;
-  max-width: 3.25rem;
-  margin: 1.5rem auto;
-  background-color: #982649;
-  opacity: 1;
-}
-
-hr.divider-light {
-  background-color: #fff;
 }
 
 #mainNav {
@@ -11037,21 +11026,6 @@ a:focus {
     color: var(--portfolio-accent-dark);
 }
 
-/* Orange divider lines */
-hr.divider {
-    height: 0.2rem;
-    max-width: 3.25rem;
-    margin: 1.5rem auto;
-    background-color: var(--portfolio-accent);
-    border: 0;
-    opacity: 1;
-}
-
-/* Keep divider lines white on dark sections */
-hr.divider-light {
-    background-color: #ffffff;
-}
-
 /* Primary-colored text and icons */
 .text-primary {
     color: var(--portfolio-accent) !important;
@@ -11100,11 +11074,6 @@ hr.divider-light {
     color: var(--portfolio-accent);
 }
 
-/* Optional teal-blue transition background */
-.portfolio-transition {
-    background-color: var(--portfolio-accent);
-    color: #ffffff;
-}
 
 /* Optional subtle project-section background */
 .project-section-light {
@@ -11213,14 +11182,6 @@ h6 {
     background-color: #ffffff !important;
     color: rgb(187, 38, 102) !important;
     border-color: #ffffff !important;
-}
-
-/* Make all section divider lines pink */
-hr.divider,
-hr.divider-light {
-    background-color: #982649 !important;
-    border-color: rgb#982649(187, 38, 102) !important;
-    opacity: 1 !important;
 }
 /* Remove all divider lines */
 hr.divider,
