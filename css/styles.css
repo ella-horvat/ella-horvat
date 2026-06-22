@@ -11186,7 +11186,7 @@ h6 {
     font-family: "Montserrat", "Futura", "Avenir", Arial, sans-serif !important;
     font-weight: 600;
 }
-css
+
 /* Homepage button outline */
 .masthead .btn-primary {
     background-color: transparent !important;
@@ -11205,7 +11205,6 @@ css
     color: rgb(187, 38, 102) !important;
 }
 
-css
 /* Homepage button — normal appearance */
 .masthead a.btn-primary {
     display: inline-block;
@@ -11214,14 +11213,6 @@ css
     color: #ffffff !important;
     border-radius: 50px !important;
     padding: 1rem 2rem !important;
-}
-
-/* Homepage button — hover appearance */
-.masthead a.btn-primary:hover,
-.masthead a.btn-primary:focus {
-    background-color: #ffffff !important;
-    border-color: #ffffff !important;
-    color: rgb(187, 38, 102) !important;
 }
 
 /* Homepage View My Projects button */
