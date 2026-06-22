@@ -11193,7 +11193,7 @@ hr.divider-light {
 
 /* Transition between thumbnails and detailed projects */
 .project-transition {
-    background-color:#f4f1f2;
+    background-color:#E2E2E2;
     color: #161616;
     padding: 7rem 1rem;
     margin: 0;
@@ -11212,7 +11212,7 @@ hr.divider-light {
 
 /* Visually separate full project maps from the page */
 .project-detail-section {
-    background-color: #f4f1f2;
+    background-color: #E2E2E2;
 }
 
 .project-detail-section img {
