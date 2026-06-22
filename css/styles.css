@@ -10994,8 +10994,8 @@ header.masthead h1, header.masthead .h1 {
   opacity: 1;
 }
 .gis-map-thumbnail {
-    width: 95%;
-    height: 410px;
+    width: 50%;
+    height: 500px;
     object-fit: contain;
     background-color: #ffffff;
     padding: 5px;
