@@ -11194,13 +11194,13 @@ hr.divider-light {
 /* Transition between thumbnails and detailed projects */
 .project-transition {
     background-color:#f4f1f2;
-    color: #212529;
+    color: #161616;
     padding: 5rem 1rem;
     margin: 1;
 }
 
 .project-transition h2 {
-    color: #ffffff;
+    color: #161616;
     margin: 0 0 0.75rem;
     font-weight: 600;
 }
