@@ -11010,3 +11010,104 @@ header.masthead h1, header.masthead .h1 {
 #services {
     padding-bottom: 4rem;
 }
+```css
+/* ==================================================
+   ELLA HORVAT GIS PORTFOLIO — CUSTOM ACCENT COLORS
+   Muted teal-blue palette
+================================================== */
+
+:root {
+    --portfolio-accent: #5f7f86;
+    --portfolio-accent-dark: #48636a;
+    --portfolio-accent-light: #dce6e8;
+    --portfolio-accent-rgb: 95, 127, 134;
+
+    /* Bootstrap primary-color overrides */
+    --bs-primary: #5f7f86;
+    --bs-primary-rgb: 95, 127, 134;
+}
+
+/* General links */
+a {
+    color: var(--portfolio-accent);
+}
+
+a:hover,
+a:focus {
+    color: var(--portfolio-accent-dark);
+}
+
+/* Orange divider lines */
+hr.divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: var(--portfolio-accent);
+    border: 0;
+    opacity: 1;
+}
+
+/* Keep divider lines white on dark sections */
+hr.divider-light {
+    background-color: #ffffff;
+}
+
+/* Primary-colored text and icons */
+.text-primary {
+    color: var(--portfolio-accent) !important;
+}
+
+/* Primary-colored backgrounds */
+.bg-primary {
+    background-color: var(--portfolio-accent) !important;
+}
+
+/* Main buttons */
+.btn-primary {
+    color: #ffffff;
+    background-color: var(--portfolio-accent);
+    border-color: var(--portfolio-accent);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+    color: #ffffff;
+    background-color: var(--portfolio-accent-dark);
+    border-color: var(--portfolio-accent-dark);
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.25rem rgba(var(--portfolio-accent-rgb), 0.35);
+}
+
+/* Portfolio map hover overlay */
+.portfolio-box .portfolio-box-caption {
+    background: rgba(var(--portfolio-accent-rgb), 0.92);
+}
+
+/* Navigation links */
+#mainNav .navbar-nav .nav-item .nav-link:hover,
+#mainNav .navbar-nav .nav-item .nav-link:focus,
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: var(--portfolio-accent) !important;
+}
+
+/* Navigation brand hover */
+#mainNav .navbar-brand:hover,
+#mainNav .navbar-brand:focus {
+    color: var(--portfolio-accent);
+}
+
+/* Optional teal-blue transition background */
+.portfolio-transition {
+    background-color: var(--portfolio-accent);
+    color: #ffffff;
+}
+
+/* Optional subtle project-section background */
+.project-section-light {
+    background-color: #f3f6f6;
+}
+```
