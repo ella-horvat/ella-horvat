@@ -11195,8 +11195,8 @@ hr.divider-light {
 .project-transition {
     background-color:#f4f1f2;
     color: #161616;
-    padding: 5rem 1rem;
-    margin: 1;
+    padding: 7rem 1rem;
+    margin: 0;
 }
 
 .project-transition h2 {
@@ -11219,6 +11219,15 @@ hr.divider-light {
     background-color: #ffffff;
     padding: 0.75rem;
     box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.12);
+}
+
+/* Smaller text in the transition section */
+.project-transition h2 {
+    font-size: 1.8rem;
+}
+
+.project-transition p {
+    font-size: 0.95rem;
 }
 
 
