@@ -10922,7 +10922,7 @@ hr.divider-light {
     color: #212529;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a;
+    color: #982649;
   }
 }
 
@@ -10954,7 +10954,7 @@ header.masthead h1, header.masthead .h1 {
 }
 @media (min-width: 1200px) {
   header.masthead h1, header.masthead .h1 {
-    font-size: 3.5rem;
+    font-size: 3.0rem;
   }
 }
 
