@@ -11222,6 +11222,12 @@ hr.divider-light {
     border-color: rgb#982649(187, 38, 102) !important;
     opacity: 1 !important;
 }
+/* Remove all divider lines */
+hr.divider,
+hr.divider-light {
+    display: none !important;
+}
+
 
 
 
