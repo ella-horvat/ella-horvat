@@ -11144,4 +11144,12 @@ hr.divider-light {
     background-color: rgba(var(--hover-color-rgb), 0.92);
 }
 ```
+```css
+/* Force map thumbnail hover overlay to muted teal-blue */
+#portfolio .portfolio-box .portfolio-box-caption {
+    background: rgba(72, 111, 120, 0.92) !important;
+    background-color: rgba(72, 111, 120, 0.92) !important;
+}
+```
+
 
