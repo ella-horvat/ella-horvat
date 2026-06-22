@@ -11075,11 +11075,6 @@ a:focus {
 }
 
 
-/* Optional subtle project-section background */
-.project-section-light {
-    background-color: #7c8483;
-}
-
 /* =========================================
    BUTTON AND THUMBNAIL HOVER COLORS
 ========================================= */
@@ -11193,9 +11188,9 @@ hr.divider-light {
 
 /* Transition between thumbnails and detailed projects */
 .project-transition {
-    background-color:#E2E2E2;
+    background-color:#f8f9fa;
     color: #161616;
-    padding: 7rem 1rem;
+    padding: 10rem 1rem;
     margin: 0;
 }
 
@@ -11212,7 +11207,7 @@ hr.divider-light {
 
 /* Visually separate full project maps from the page */
 .project-detail-section {
-    background-color: #E2E2E2;
+    background-color: #f8f9fa;
 }
 
 .project-detail-section img {
