@@ -11215,6 +11215,14 @@ h6 {
     border-color: #ffffff !important;
 }
 
+/* Make all section divider lines pink */
+hr.divider,
+hr.divider-light {
+    background-color: rgb(187, 38, 102) !important;
+    border-color: rgb(187, 38, 102) !important;
+    opacity: 1 !important;
+}
+
 
 
 
