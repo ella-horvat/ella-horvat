@@ -11010,7 +11010,7 @@ header.masthead h1, header.masthead .h1 {
 #services {
     padding-bottom: 4rem;
 }
-css
+
 /* ==================================================
    ELLA HORVAT GIS PORTFOLIO — CUSTOM ACCENT COLORS
    Muted teal-blue palette
@@ -11110,11 +11110,10 @@ hr.divider-light {
 .project-section-light {
     background-color: #7c8483;
 }
-css
+
 /* =========================================
    BUTTON AND THUMBNAIL HOVER COLORS
 ========================================= */
-css
 /* Button and thumbnail hover colors */
 
 /* All buttons: white background with pink-red text on hover */
@@ -11139,7 +11138,6 @@ css
     background-color: rgba(187, 38, 102, 0.90) !important;
 }
 
-css
 /* Consistent Futura-style font throughout the website */
 html,
 body,
@@ -11187,14 +11185,6 @@ h6 {
     font-weight: 600;
 }
 
-/* Homepage button outline */
-.masthead .btn-primary {
-    background-color: transparent !important;
-    border: 2px solid #ffffff !important;
-    color: #ffffff !important;
-    border-radius: 50px;
-    padding: 1rem 2rem;
-}
 
 /* Homepage button hover */
 .masthead .btn-primary:hover,
@@ -11203,16 +11193,6 @@ h6 {
     background-color: #ffffff !important;
     border-color: #ffffff !important;
     color: rgb(187, 38, 102) !important;
-}
-
-/* Homepage button — normal appearance */
-.masthead a.btn-primary {
-    display: inline-block;
-    background-color: transparent !important;
-    border: 2px solid #ffffff !important;
-    color: #ffffff !important;
-    border-radius: 50px !important;
-    padding: 1rem 2rem !important;
 }
 
 /* Homepage View My Projects button */
