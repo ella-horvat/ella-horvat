@@ -11010,7 +11010,7 @@ header.masthead h1, header.masthead .h1 {
 #services {
     padding-bottom: 4rem;
 }
-```css
+css
 /* ==================================================
    ELLA HORVAT GIS PORTFOLIO — CUSTOM ACCENT COLORS
    Muted teal-blue palette
@@ -11110,46 +11110,36 @@ hr.divider-light {
 .project-section-light {
     background-color: #7c8483;
 }
-```
-```css
+css
 /* =========================================
    BUTTON AND THUMBNAIL HOVER COLORS
 ========================================= */
+css
+/* Button and thumbnail hover colors */
 
-:root {
-    --hover-color: #982649;
-    --hover-color-rgb: 153, 38, 73;
-}
-
-/* Teal buttons when hovered */
+/* All buttons: white background with pink-red text on hover */
+.btn:hover,
+.btn:focus,
+.btn:active,
 .btn-primary:hover,
 .btn-primary:focus,
-.btn-primary:active {
-    color: #ffffff;
-    background-color: var(--hover-color);
-    border-color: var(--hover-color);
-}
-
-/* White buttons when hovered */
+.btn-primary:active,
 .btn-light:hover,
 .btn-light:focus,
 .btn-light:active {
-    color: #982649;
-    background-color: var(--hover-color);
-    border-color: var(--hover-color);
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+    color: rgb(187, 38, 102) !important;
+    box-shadow: none !important;
 }
 
 /* Map thumbnail hover overlay */
-.portfolio-box .portfolio-box-caption {
-    background-color: rgba(var(--hover-color-rgb), 0.92);
-}
-```
-```css
-/* Force map thumbnail hover overlay to muted teal-blue */
 #portfolio .portfolio-box .portfolio-box-caption {
-    background: #982649 !important;
-    background-color: #982649 !important;
+    background: rgba(187, 38, 102, 0.90) !important;
+    background-color: rgba(187, 38, 102, 0.90) !important;
 }
-```
+
+
+
 
 
