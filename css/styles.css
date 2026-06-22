@@ -11023,7 +11023,7 @@ header.masthead h1, header.masthead .h1 {
     --portfolio-accent-rgb: 95, 127, 134;
 
     /* Bootstrap primary-color overrides */
-    --bs-primary: #5f7f86;
+    --bs-primary: #982649;
     --bs-primary-rgb: 95, 127, 134;
 }
 
@@ -11073,7 +11073,7 @@ hr.divider-light {
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active {
-    color: #ffffff;
+    color: #982649;
     background-color: var(--portfolio-accent-dark);
     border-color: var(--portfolio-accent-dark);
 }
@@ -11117,7 +11117,7 @@ hr.divider-light {
 ========================================= */
 
 :root {
-    --hover-color: #3f5960;
+    --hover-color: #982649;
     --hover-color-rgb: 63, 89, 96;
 }
 
@@ -11134,7 +11134,7 @@ hr.divider-light {
 .btn-light:hover,
 .btn-light:focus,
 .btn-light:active {
-    color: #ffffff;
+    color: #982649;
     background-color: var(--hover-color);
     border-color: var(--hover-color);
 }
