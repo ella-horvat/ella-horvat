@@ -10993,10 +10993,20 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
-.gis-map-thumbnail {
-    width: 50%;
-    height: 500px;
-    object-fit: contain;
-    background-color: #ffffff;
-    padding: 5px;
+.portfolio-box {
+    height: 340px;
+    overflow: hidden;
+    background-color: #f4f4f4;
+}
+
+.portfolio-box .gis-map-thumbnail {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    padding: 0;
+}
+#services {
+    padding-bottom: 4rem;
 }
